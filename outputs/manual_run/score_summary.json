@@ -1,0 +1,124 @@
+{
+  "brand_name": "OLIPOP",
+  "total_score": 80.04,
+  "supported_weight": 1.0,
+  "llm_summary": "OLIPOP 的综合得分为 80.04 分，整体呈现出较成熟的品牌经营状态。品牌成熟度、产品质量和市场需求匹配度表现较强，说明其在品牌认知、用户反馈和站点需求层面具备优势。其中 市场需求匹配度 是当前最突出的优势维度。相对薄弱的环节是 运营韧性，主要受到样本结构偏向周边商品、价格敏感反馈和部分维度数据不足的影响。建议后续补充更细粒度销售、供应链和 ESG 数据，以提升评分稳定性与可解释性。",
+  "dimensions": [
+    {
+      "name": "品牌成熟度",
+      "score": 79.54,
+      "confidence": 0.88,
+      "weight": 0.22,
+      "status": "supported",
+      "rationale": "品牌已运营约 7.18 年，站点估算访问量 1603837，社媒和站点功能覆盖较完整。",
+      "inputs": {
+        "created_years": 7.18,
+        "estimated_visits": 1603837,
+        "social_channel_count": 6,
+        "feature_count": 13,
+        "contact_channel_count": 8
+      }
+    },
+    {
+      "name": "产品质量",
+      "score": 80.86,
+      "confidence": 0.81,
+      "weight": 0.22,
+      "status": "supported",
+      "rationale": "评论均分 4.18，高分评论占比 80.0%，但存在甜度和人工甜味相关抱怨。",
+      "inputs": {
+        "review_avg_stars": 4.18,
+        "review_positive_ratio": 0.8,
+        "complaint_rate_sweet": 0.44,
+        "complaint_rate_artificial": 0.14
+      }
+    },
+    {
+      "name": "市场需求匹配度",
+      "score": 89.31,
+      "confidence": 0.76,
+      "weight": 0.2,
+      "status": "supported",
+      "rationale": "最近月访问量 402363，品牌搜索量 91460，品牌站销售估算与流量规模均显示较强需求匹配。",
+      "inputs": {
+        "monthly_visits_latest": 402363,
+        "branded_search_volume": 91460,
+        "estimated_sales_yearly": 7656001008.0
+      }
+    },
+    {
+      "name": "创新力",
+      "score": 76.25,
+      "confidence": 0.63,
+      "weight": 0.13,
+      "status": "supported",
+      "rationale": "公司存在新品与增长信号，融资轮次 7，但产品快照受周边商品干扰，创新分的样本纯度一般。",
+      "inputs": {
+        "recent_product_signal": 4,
+        "funding_rounds": 7,
+        "funding_prediction_score": 0.9286
+      }
+    },
+    {
+      "name": "运营韧性",
+      "score": 68.71,
+      "confidence": 0.68,
+      "weight": 0.13,
+      "status": "supported",
+      "rationale": "具备 3 个物流承运商、1 个外部销售渠道和多种联络方式，但流量高度集中在 US。",
+      "inputs": {
+        "shipping_carrier_count": 3,
+        "sales_channel_count": 1,
+        "contact_channel_count": 8,
+        "traffic_top_country_share": 0.7120708172353472
+      }
+    },
+    {
+      "name": "性价比",
+      "score": 80.42,
+      "confidence": 0.57,
+      "weight": 0.1,
+      "status": "supported",
+      "rationale": "用户总体评分较高，但价格相关抱怨占比 12.0%，且商品样本受到大量周边商品影响，性价比维度置信度偏低。",
+      "inputs": {
+        "review_avg_stars": 4.18,
+        "complaint_rate_price": 0.12,
+        "price_avg": 14.88,
+        "merch_count": 25,
+        "beverage_like_count": 3
+      }
+    },
+    {
+      "name": "市场趋势契合度",
+      "score": null,
+      "confidence": 0.2,
+      "weight": 0.0,
+      "status": "skipped",
+      "rationale": "当前样本缺少可直接验证的外部趋势词库与类目级趋势序列。",
+      "inputs": {}
+    },
+    {
+      "name": "可持续发展",
+      "score": null,
+      "confidence": 0.2,
+      "weight": 0.0,
+      "status": "skipped",
+      "rationale": "缺少第三方认证、ESG 报告或包装材料等可核验数据。",
+      "inputs": {}
+    },
+    {
+      "name": "供应链可靠性",
+      "score": null,
+      "confidence": 0.2,
+      "weight": 0.0,
+      "status": "skipped",
+      "rationale": "缺少库存、缺货、履约异常与延迟投诉等直接运营数据。",
+      "inputs": {}
+    }
+  ],
+  "data_quality_notes": [
+    "products-info 以周边商品为主，核心饮料 SKU 代表性有限",
+    "评论样本量较小，适合轻量口碑判断，不宜过度外推",
+    "流量高度集中于单一国家，国际化信号有限"
+  ]
+}
