@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+outputs/run_*/
+outputs/*.png
+outputs/*.svg
+outputs/*.json
+outputs/*.md
+!.gitkeep
